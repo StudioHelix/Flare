@@ -1,16 +1,18 @@
 #include "FlarePCH.h"
 #include "Application.h"
+#include "LoggingManager.h"
 
 namespace Flare
 {
 	Application::Application()
 	{
-	
+		g_LoggingManager.Startup();
+		Flare::g_LoggingManager.GetEngineLogger()->info("Application has started!");
 	}
 
 	Application::~Application()
 	{
-
+		g_LoggingManager.Shutdown();
 	}
 
 	void Application::Run()

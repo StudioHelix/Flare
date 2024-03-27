@@ -14,7 +14,8 @@ project "Flare"
 
     defines
     {
-        "_CRT_SECURE_NO_WARNINGS"
+        "_CRT_SECURE_NO_WARNINGS",
+        "_SILENCE_ALL_MS_EXT_DEPRECATION_WARNINGS"
     }
 
     files
@@ -25,7 +26,8 @@ project "Flare"
 
     includedirs
     {
-        "Source/"
+        "Source/",
+        "%{wks.location}/Vendor/spdlog/include/"
     }
 
     postbuildcommands 

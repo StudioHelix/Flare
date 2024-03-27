@@ -5,7 +5,7 @@ namespace Sandbox
 {
 	SandboxApplication::SandboxApplication()
 	{
-
+		
 	}
 
 	SandboxApplication::~SandboxApplication()

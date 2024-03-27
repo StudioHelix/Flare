@@ -1,0 +1,11 @@
+# IDE Directories
+.vs/
+.vscode/
+
+# Build Directory
+Build/
+
+
+# Solution & Project Files
+*.sln
+*.vcxproj*

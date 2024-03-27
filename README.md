@@ -1,4 +1,6 @@
 # Flare
+This is a project I have been planning to start and procastinating on, for the past 6 months (as of 27th of March 2024).<br>
+You are welcome to contribute to the repository and/or use it to make some games, make sure to read the entire readme. Have Fun!
 
 - ## Prerequisites
     - Visual Studio 2022 (Working on adding build script support for others)
